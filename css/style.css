@@ -1,10 +1,5 @@
-@font-face {
-  font-family: Exo;
-  src: url(../Font/Exo-VariableFont_wght.ttf);
-}
-
 * {
-  font-family: Exo;
+  font-family: "Exo", sans-serif;
   margin: 0;
   padding: 0;
   border: 0 solid;
@@ -1241,14 +1236,13 @@ h1 {
   }
   .mobile img {
     width: 32px;
-    border-radius: 2px ;
+    border-radius: 2px;
     border: 2px #000 solid;
     padding: 4px;
     box-shadow: 2px 2px #000;
-    
   }
-  .mobile:hover{
-    transform: translate(0,-2px);
+  .mobile:hover {
+    transform: translate(0, -2px);
   }
 }
 
